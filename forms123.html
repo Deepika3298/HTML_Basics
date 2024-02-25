@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is Form Tutorial </h2>
+    <form action="backened.php">
+        <label for="name"> Name: 
+        <div><input type="text" name="myName" id="name"></div></label>
+        <div>Role: <input type="text" name="myRole"></div>
+        <div>Email: <input type="email" name="myEmail"></div><!--name is used to instruct backened about tag-->
+        Write about yourself:<br> <textarea name="myText" cols="30" rows="10"></textarea>
+        <div> <input type="Submit" value="Submit Now"></div>
+        <div> <input type="reset" value="Reset Now"></div>
+    </form> <!--action refers to end point where data is stored-->
+</body>
+</html>
